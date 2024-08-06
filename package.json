@@ -1,0 +1,32 @@
+{
+  "name": "editor",
+  "type": "module",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.6.0",
+    "eslint-plugin-tailwindcss": "^3.17.4",
+    "unplugin-auto-import": "^0.18.2",
+    "unplugin-icons": "^0.19.1",
+    "unplugin-vue-components": "^0.27.3",
+    "vue": "^3.4.35"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.24.1",
+    "@tauri-apps/cli": "^1.6.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "9.8.0",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.7",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vue-tsc": "^2.0.29"
+  }
+}
